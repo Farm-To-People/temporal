@@ -32,7 +32,7 @@ def populate_week_numbers():
 	Mass update, populating the Week Number for every calendar date in the systems.
 	"""
 	filters = {
-		"calendar_date": ["<=", "2025-12-31"],
+		"calendar_date": ["<=", "2026-12-31"],
 		"week_number": 0
 	}
 
