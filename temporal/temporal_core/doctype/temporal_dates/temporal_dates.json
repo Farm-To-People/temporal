@@ -1,6 +1,5 @@
 {
  "actions": [],
- "autoname": "field:calendar_date",
  "creation": "2021-07-03 10:34:12.186271",
  "description": "Because sometimes you need a SQL table full of calendar dates.",
  "doctype": "DocType",
