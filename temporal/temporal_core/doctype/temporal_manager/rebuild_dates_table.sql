@@ -34,7 +34,7 @@ SELECT
 	NULL AS				"_assign",
 	NULL AS				"_liked_by",
 	calendar_date,
-	TO_CHAR(calendar_date, 'Day')		AS day_name,
+	TRIM(TO_CHAR(calendar_date, 'Day'))		AS day_name,
 	ROW_NUMBER() OVER (ORDER BY calendar_date)	AS scalar_value
 FROM
 	DateSequence
